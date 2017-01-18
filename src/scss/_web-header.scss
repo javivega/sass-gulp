@@ -1,0 +1,17 @@
+//varibales
+$web-header-background-color: $color-primary;
+$web-header-text-color: white;
+
+
+//styles
+
+.web-header{
+	background: $web-header-background-color;
+	.web-title {
+		color: $web-header-text-color;
+		text-align: center;
+		margin: 0px;
+		text-shadow: 2px 2px 0px darken($web-header-background-color, 30%);
+		font-family: $web-header-title-font;
+	}
+}
